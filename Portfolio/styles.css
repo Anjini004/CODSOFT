@@ -1,0 +1,90 @@
+/* General Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    margin: 0.5rem 0 0;
+  }
+  
+  section {
+    padding: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  #about {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  #about img {
+    border-radius: 80%;
+    width: 150px;
+    height: 200Spx;
+    object-fit: cover;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+  }
+  
+  #skills li {
+    background: #f4f4f4;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .project {
+    margin-bottom: 2rem;
+  }
+  
+  .project img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  #resume a {
+    display: inline-block;
+    margin-top: 1rem;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  #contact p {
+    margin: 0.5rem 0;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
